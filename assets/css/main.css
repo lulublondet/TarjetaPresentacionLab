@@ -1,0 +1,79 @@
+	/* reset styles */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:none; }
+q:before, q:after { content:''; }
+
+/* end reset styles */
+
+body {
+	font-size: 62.5%;
+	font-family: 'Raleway', sans-serif;
+	position: relative;	
+	margin-left: 20%;
+	margin-top: 10%;			
+}
+
+
+.img1 {
+	position:absolute;
+}
+
+
+.tarjeta-presentacion {
+	position: absolute;
+	width: 750px;
+	height: 366px;	
+	background: -webkit-linear-gradient(30deg, white 50%, #333333 50%);
+	background: -o-linear-gradient(30deg, white 50%, #333333 50%);
+	background: linear-gradient(120deg, rgba(255,255,255,0.1) 50%, #333333 50%)	;
+	z-index: 200;
+}
+
+.datos-personales {
+	display: inline-block;		
+	color: white;
+	position: absolute;	
+	right: 10%;
+	top: 20%;
+	padding-top: 5%;
+	padding-bottom: 10%;
+}
+
+.datos-personales h1 {
+	font-size: 2.6em;	
+	padding-left: 15%;
+	padding-bottom: 5%;			
+}
+
+.datos-personales h3 {
+	font-size: 1.9em;
+	padding-left: 15%;
+	padding-bottom: 10%;
+	color: 	#F9A91A;				
+}
+
+.datos-personales address {
+	font-style: normal;			
+	font-size: 	1.5em;	
+	line-height: 150%;	
+} 
+
+
+.logo-lab {
+ width: 40px;
+ height: 40px;
+ position: absolute;
+ z-index: 200;
+ right: 0;
+ bottom:0;	
+}
